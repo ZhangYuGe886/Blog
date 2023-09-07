@@ -6,12 +6,14 @@
   "author": "reco_luan <recoluan@outlook.com>",
   "license": "MIT",
   "scripts": {
-    "dev":"vuepress dev docs",
-    "build":"vuepress build docs",
-    "deploy":"bash deploy.sh"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "dependencies": {
-    "vuepress": "2.0.0-beta.66",
     "vuepress-theme-reco": "2.0.0-beta.67"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.67"
   }
 }

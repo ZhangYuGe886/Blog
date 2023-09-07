@@ -513,7 +513,7 @@
   dependencies:
     "@lit-labs/ssr-dom-shim" "^1.0.0"
 
-"@mdit-vue/plugin-component@^0.12.0":
+"@mdit-vue/plugin-component@^0.12.0", "@mdit-vue/plugin-component@^0.12.1":
   "integrity" "sha512-L3elbvuKUufXwPLHrmJGd/ijd/QKxfcHXy3kRy4O+P7UIV7HSWePpfB0k+wWee+by3MviYYxjVAi392z+DGy3Q=="
   "resolved" "https://registry.npmmirror.com/@mdit-vue/plugin-component/-/plugin-component-0.12.1.tgz"
   "version" "0.12.1"
@@ -521,7 +521,7 @@
     "@types/markdown-it" "^13.0.0"
     "markdown-it" "^13.0.1"
 
-"@mdit-vue/plugin-frontmatter@^0.12.0":
+"@mdit-vue/plugin-frontmatter@^0.12.0", "@mdit-vue/plugin-frontmatter@^0.12.1":
   "integrity" "sha512-C6ycNjrJ+T4JgbVxwo9cUkfLacOO841Yl8ogqd5PJmAVpc5cM2OLBkqqkZxNRXos3g9xM1VvIQ7gK/047UNADg=="
   "resolved" "https://registry.npmmirror.com/@mdit-vue/plugin-frontmatter/-/plugin-frontmatter-0.12.1.tgz"
   "version" "0.12.1"
@@ -531,7 +531,7 @@
     "gray-matter" "^4.0.3"
     "markdown-it" "^13.0.1"
 
-"@mdit-vue/plugin-headers@^0.12.0":
+"@mdit-vue/plugin-headers@^0.12.0", "@mdit-vue/plugin-headers@^0.12.1":
   "integrity" "sha512-DXAw/iWW8f3qUYMDHgQmamL+XGjnaoeRzdvDseLRyr7gXX4xpYO9OIhe/pv9LzSvUoY7UGYmn4kFeI+0qpWJ+g=="
   "resolved" "https://registry.npmmirror.com/@mdit-vue/plugin-headers/-/plugin-headers-0.12.1.tgz"
   "version" "0.12.1"
@@ -541,7 +541,7 @@
     "@types/markdown-it" "^13.0.0"
     "markdown-it" "^13.0.1"
 
-"@mdit-vue/plugin-sfc@^0.12.0":
+"@mdit-vue/plugin-sfc@^0.12.0", "@mdit-vue/plugin-sfc@^0.12.1":
   "integrity" "sha512-6j332CsSqumy1+StIM3XphdXG1zj9NXuWestDJrKgS3OLy5P0EAioXScUYiZYysw61ZG+2pP37MW7Hg+eHbyIg=="
   "resolved" "https://registry.npmmirror.com/@mdit-vue/plugin-sfc/-/plugin-sfc-0.12.1.tgz"
   "version" "0.12.1"
@@ -550,7 +550,7 @@
     "@types/markdown-it" "^13.0.0"
     "markdown-it" "^13.0.1"
 
-"@mdit-vue/plugin-title@^0.12.0":
+"@mdit-vue/plugin-title@^0.12.0", "@mdit-vue/plugin-title@^0.12.1":
   "integrity" "sha512-JOsiDj+CryGbrTDWUnDAwB9kSkN6o9GDo3udR6BPDgBNVb3zAnx9ZNaRpEhDW1LnQhf9/LYicWJ2eTNRKPcJNQ=="
   "resolved" "https://registry.npmmirror.com/@mdit-vue/plugin-title/-/plugin-title-0.12.1.tgz"
   "version" "0.12.1"
@@ -560,7 +560,7 @@
     "@types/markdown-it" "^13.0.0"
     "markdown-it" "^13.0.1"
 
-"@mdit-vue/plugin-toc@^0.12.0":
+"@mdit-vue/plugin-toc@^0.12.0", "@mdit-vue/plugin-toc@^0.12.1":
   "integrity" "sha512-nFGwTwVa8GLCKJMV7cGST7lYuljSjEiCTPgKIpQ/WifwouHsQaL/rnBDr22kpzY2hRTAhM3+TT5GDwLyxa/e6A=="
   "resolved" "https://registry.npmmirror.com/@mdit-vue/plugin-toc/-/plugin-toc-0.12.1.tgz"
   "version" "0.12.1"
@@ -570,7 +570,7 @@
     "@types/markdown-it" "^13.0.0"
     "markdown-it" "^13.0.1"
 
-"@mdit-vue/shared@^0.12.0", "@mdit-vue/shared@0.12.1":
+"@mdit-vue/shared@^0.12.0", "@mdit-vue/shared@^0.12.1", "@mdit-vue/shared@0.12.1":
   "integrity" "sha512-bXgd0KThe4jC2leCFDFsyrudXIckvTwV4WnQK/rRMrXq0/BAuVdSNdIv1LGCWZxD5+oDyPyEPd0lalTIFwqsmg=="
   "resolved" "https://registry.npmmirror.com/@mdit-vue/shared/-/shared-0.12.1.tgz"
   "version" "0.12.1"
@@ -752,6 +752,14 @@
     "@types/linkify-it" "*"
     "@types/mdurl" "*"
 
+"@types/markdown-it@^13.0.1":
+  "integrity" "sha512-SUEb8Frsxs3D5Gg9xek6i6EG6XQ5s+O+ZdQzIPESZVZw3Pv3CPQfjCJBI+RgqZd1IBeu18S0Rn600qpPnEK37w=="
+  "resolved" "https://registry.npmmirror.com/@types/markdown-it/-/markdown-it-13.0.1.tgz"
+  "version" "13.0.1"
+  dependencies:
+    "@types/linkify-it" "*"
+    "@types/mdurl" "*"
+
 "@types/mdurl@*":
   "integrity" "sha512-eC4U9MlIcu2q0KQmXszyn5Akca/0jrQmwDRgpAMJai7qBWq4amIQhZyNau4VYGtCeALvW1/NtjzJJ567aZxfKA=="
   "resolved" "https://registry.npmmirror.com/@types/mdurl/-/mdurl-1.0.2.tgz"
@@ -856,7 +864,7 @@
   "resolved" "https://registry.npmmirror.com/@vicons/carbon/-/carbon-0.12.0.tgz"
   "version" "0.12.0"
 
-"@vitejs/plugin-vue@^4.2.3":
+"@vitejs/plugin-vue@^4.2.3", "@vitejs/plugin-vue@^4.3.3":
   "integrity" "sha512-ciXNIHKPriERBisHFBvnTbfKa6r9SAesOYXeGDzgegcvy9Q4xdScSHAmKbNT0M3O0S9LKhIf5/G+UYG4NnnzYw=="
   "resolved" "https://registry.npmmirror.com/@vitejs/plugin-vue/-/plugin-vue-4.3.4.tgz"
   "version" "4.3.4"
@@ -1063,6 +1071,25 @@
     "vue" "^3.3.4"
     "vue-router" "^4.2.4"
 
+"@vuepress/bundler-vite@2.0.0-beta.67":
+  "integrity" "sha512-W6YXixxu2G+xPECPFvx4Tzv5fmpBYvApEYVw7qfSNf/5YZ6aeIfV0AMGJZvhk7R/KniofvBTGCjAMSK4fqKp8w=="
+  "resolved" "https://registry.npmmirror.com/@vuepress/bundler-vite/-/bundler-vite-2.0.0-beta.67.tgz"
+  "version" "2.0.0-beta.67"
+  dependencies:
+    "@vitejs/plugin-vue" "^4.3.3"
+    "@vuepress/client" "2.0.0-beta.67"
+    "@vuepress/core" "2.0.0-beta.67"
+    "@vuepress/shared" "2.0.0-beta.67"
+    "@vuepress/utils" "2.0.0-beta.67"
+    "autoprefixer" "^10.4.15"
+    "connect-history-api-fallback" "^2.0.0"
+    "postcss" "^8.4.28"
+    "postcss-load-config" "^4.0.1"
+    "rollup" "^3.28.1"
+    "vite" "~4.4.9"
+    "vue" "^3.3.4"
+    "vue-router" "^4.2.4"
+
 "@vuepress/bundler-webpack@2.0.0-beta.66":
   "integrity" "sha512-a4OCMETjSK8nRp105OcxJ4XxEGR4WMV+iqiUZpyqk8UjZ9gdDDZ3JJ/zq47zvguP0jjBeo/yt6Vgu0InqgX4cg=="
   "resolved" "https://registry.npmmirror.com/@vuepress/bundler-webpack/-/bundler-webpack-2.0.0-beta.66.tgz"
@@ -1094,18 +1121,18 @@
     "webpack-dev-server" "^4.15.1"
     "webpack-merge" "^5.9.0"
 
-"@vuepress/cli@2.0.0-beta.66":
-  "integrity" "sha512-VWOAxjePlxeao/6ecg1AQrrnbtgDJ0VOyYX3Zx2r2vwD0lBDE8OCtJUjP2X+3g2H8bauY4utM7rqWqm7yHC1og=="
-  "resolved" "https://registry.npmmirror.com/@vuepress/cli/-/cli-2.0.0-beta.66.tgz"
-  "version" "2.0.0-beta.66"
+"@vuepress/cli@2.0.0-beta.67":
+  "integrity" "sha512-OWd5JMq9pEHrz2MTTQV91EoG+7o18s1JWKP7GBfYQ2DRAu/Hf4rZPmluuibhFolTvnTDuTtXrfb6Wbx4iZ+M9Q=="
+  "resolved" "https://registry.npmmirror.com/@vuepress/cli/-/cli-2.0.0-beta.67.tgz"
+  "version" "2.0.0-beta.67"
   dependencies:
-    "@vuepress/core" "2.0.0-beta.66"
-    "@vuepress/shared" "2.0.0-beta.66"
-    "@vuepress/utils" "2.0.0-beta.66"
+    "@vuepress/core" "2.0.0-beta.67"
+    "@vuepress/shared" "2.0.0-beta.67"
+    "@vuepress/utils" "2.0.0-beta.67"
     "cac" "^6.7.14"
     "chokidar" "^3.5.3"
     "envinfo" "^7.10.0"
-    "esbuild" "~0.18.11"
+    "esbuild" "~0.18.20"
 
 "@vuepress/client@2.0.0-beta.66":
   "integrity" "sha512-WjrL1u0NOVUwiGoVOIfQqSU7SwzJUkyBFu3xiZoNmWFD9VdPIfuSRvVeZDhr+br/0tA7XrJd2ueSEDt5+BM3Qg=="
@@ -1118,6 +1145,17 @@
     "vue" "^3.3.4"
     "vue-router" "^4.2.4"
 
+"@vuepress/client@2.0.0-beta.67":
+  "integrity" "sha512-xfXZXmZmMbCvQxUhNltuAZzpoiwM0x9ke+DdPPDBF0oGMNDlmtOlsD7NcH322vQE3ehYy5mXJttXuEmfoNOG6A=="
+  "resolved" "https://registry.npmmirror.com/@vuepress/client/-/client-2.0.0-beta.67.tgz"
+  "version" "2.0.0-beta.67"
+  dependencies:
+    "@vue/devtools-api" "^6.5.0"
+    "@vuepress/shared" "2.0.0-beta.67"
+    "@vueuse/core" "^10.4.1"
+    "vue" "^3.3.4"
+    "vue-router" "^4.2.4"
+
 "@vuepress/core@2.0.0-beta.66":
   "integrity" "sha512-CPvm6BR5zpvKeky9Z9QbAzsDHTrrxEXFKvN5MUsdEKUTPfoumI1dDT2O6eQS37X9jNB+6mckFaPWKQncbaW1Bg=="
   "resolved" "https://registry.npmmirror.com/@vuepress/core/-/core-2.0.0-beta.66.tgz"
@@ -1127,6 +1165,17 @@
     "@vuepress/markdown" "2.0.0-beta.66"
     "@vuepress/shared" "2.0.0-beta.66"
     "@vuepress/utils" "2.0.0-beta.66"
+    "vue" "^3.3.4"
+
+"@vuepress/core@2.0.0-beta.67":
+  "integrity" "sha512-pbCm1x+zFKZqpJjS68sv3ziEQLMn0KM04Q6W249stcTUUBrKox2OPx+OcX/BrN6yH60OviXN8hD6MgCnFSWdZA=="
+  "resolved" "https://registry.npmmirror.com/@vuepress/core/-/core-2.0.0-beta.67.tgz"
+  "version" "2.0.0-beta.67"
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.67"
+    "@vuepress/markdown" "2.0.0-beta.67"
+    "@vuepress/shared" "2.0.0-beta.67"
+    "@vuepress/utils" "2.0.0-beta.67"
     "vue" "^3.3.4"
 
 "@vuepress/markdown@2.0.0-beta.66":
@@ -1151,6 +1200,28 @@
     "markdown-it-emoji" "^2.0.2"
     "mdurl" "^1.0.1"
 
+"@vuepress/markdown@2.0.0-beta.67":
+  "integrity" "sha512-dwciE7dbfDruLan+w9x/LUl5dLdBWB39QXznX/Hhv4oPp+Mm4as53J58gqjuRPi6N25DfRi3ODrzjG5Lduwnfw=="
+  "resolved" "https://registry.npmmirror.com/@vuepress/markdown/-/markdown-2.0.0-beta.67.tgz"
+  "version" "2.0.0-beta.67"
+  dependencies:
+    "@mdit-vue/plugin-component" "^0.12.1"
+    "@mdit-vue/plugin-frontmatter" "^0.12.1"
+    "@mdit-vue/plugin-headers" "^0.12.1"
+    "@mdit-vue/plugin-sfc" "^0.12.1"
+    "@mdit-vue/plugin-title" "^0.12.1"
+    "@mdit-vue/plugin-toc" "^0.12.1"
+    "@mdit-vue/shared" "^0.12.1"
+    "@mdit-vue/types" "^0.12.0"
+    "@types/markdown-it" "^13.0.1"
+    "@types/markdown-it-emoji" "^2.0.2"
+    "@vuepress/shared" "2.0.0-beta.67"
+    "@vuepress/utils" "2.0.0-beta.67"
+    "markdown-it" "^13.0.1"
+    "markdown-it-anchor" "^8.6.7"
+    "markdown-it-emoji" "^2.0.2"
+    "mdurl" "^1.0.1"
+
 "@vuepress/plugin-active-header-links@2.0.0-beta.66":
   "integrity" "sha512-f0T1LK0oWFJ/tuOg7+F3mCT2tzqu1PcKhTlF5wtkZzn8YdGtlpr9X7jX4owrbqMwlbYLbaCER1AeoH31eKA7Ow=="
   "resolved" "https://registry.npmmirror.com/@vuepress/plugin-active-header-links/-/plugin-active-header-links-2.0.0-beta.66.tgz"
@@ -1159,6 +1230,18 @@
     "@vuepress/client" "2.0.0-beta.66"
     "@vuepress/core" "2.0.0-beta.66"
     "@vuepress/utils" "2.0.0-beta.66"
+    "ts-debounce" "^4.0.0"
+    "vue" "^3.3.4"
+    "vue-router" "^4.2.4"
+
+"@vuepress/plugin-active-header-links@2.0.0-beta.67":
+  "integrity" "sha512-2AxtFnnvHn750x+dCFbCWgqxpS+zsNucw8vuATmyRiBAleEqfM1Wz+RuMSKBM38GxsI/7mnQgWOgqj4S90G+ZA=="
+  "resolved" "https://registry.npmmirror.com/@vuepress/plugin-active-header-links/-/plugin-active-header-links-2.0.0-beta.67.tgz"
+  "version" "2.0.0-beta.67"
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.67"
+    "@vuepress/core" "2.0.0-beta.67"
+    "@vuepress/utils" "2.0.0-beta.67"
     "ts-debounce" "^4.0.0"
     "vue" "^3.3.4"
     "vue-router" "^4.2.4"
@@ -1174,6 +1257,17 @@
     "ts-debounce" "^4.0.0"
     "vue" "^3.3.4"
 
+"@vuepress/plugin-back-to-top@2.0.0-beta.67":
+  "integrity" "sha512-ystolf429cvAfX4qw1o9sHfkB8+KdQ4rV8P4ILR5LERgTZprL+1FbQfcHgVjEF2p0UKu2QXJQNGx2LfWWVuYdw=="
+  "resolved" "https://registry.npmmirror.com/@vuepress/plugin-back-to-top/-/plugin-back-to-top-2.0.0-beta.67.tgz"
+  "version" "2.0.0-beta.67"
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.67"
+    "@vuepress/core" "2.0.0-beta.67"
+    "@vuepress/utils" "2.0.0-beta.67"
+    "ts-debounce" "^4.0.0"
+    "vue" "^3.3.4"
+
 "@vuepress/plugin-container@2.0.0-beta.66":
   "integrity" "sha512-/R8NlDz18co9qXoYjarJA+kIFWFNrhE1+Xd1WSgcUZw5WoQydz19MTPDJICmiHQBGZjm2EgnWbyNZFpk6BcsPQ=="
   "resolved" "https://registry.npmmirror.com/@vuepress/plugin-container/-/plugin-container-2.0.0-beta.66.tgz"
@@ -1184,6 +1278,19 @@
     "@vuepress/markdown" "2.0.0-beta.66"
     "@vuepress/shared" "2.0.0-beta.66"
     "@vuepress/utils" "2.0.0-beta.66"
+    "markdown-it" "^13.0.1"
+    "markdown-it-container" "^3.0.0"
+
+"@vuepress/plugin-container@2.0.0-beta.67":
+  "integrity" "sha512-NuxjNkyJ2bYsRpw3iAiok2aeKYzZQsEZ8A/i+4LYwrDXbj3HfjlDhfPYhN+BMQfbxE9LpXOG0APNcXVCNMu0hw=="
+  "resolved" "https://registry.npmmirror.com/@vuepress/plugin-container/-/plugin-container-2.0.0-beta.67.tgz"
+  "version" "2.0.0-beta.67"
+  dependencies:
+    "@types/markdown-it" "^13.0.1"
+    "@vuepress/core" "2.0.0-beta.67"
+    "@vuepress/markdown" "2.0.0-beta.67"
+    "@vuepress/shared" "2.0.0-beta.67"
+    "@vuepress/utils" "2.0.0-beta.67"
     "markdown-it" "^13.0.1"
     "markdown-it-container" "^3.0.0"
 
@@ -1216,6 +1323,18 @@
     "@vuepress/utils" "2.0.0-beta.66"
     "vue" "^3.3.4"
 
+"@vuepress/plugin-external-link-icon@2.0.0-beta.67":
+  "integrity" "sha512-JD0/Uvt1WQXiGoAA0pjpqQ7OINDUm1TSgWeIpfPq9tZJNfgjmqUoartMFUuqcvl4eMi4Alfx0dWkzSF9qHL7Pg=="
+  "resolved" "https://registry.npmmirror.com/@vuepress/plugin-external-link-icon/-/plugin-external-link-icon-2.0.0-beta.67.tgz"
+  "version" "2.0.0-beta.67"
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.67"
+    "@vuepress/core" "2.0.0-beta.67"
+    "@vuepress/markdown" "2.0.0-beta.67"
+    "@vuepress/shared" "2.0.0-beta.67"
+    "@vuepress/utils" "2.0.0-beta.67"
+    "vue" "^3.3.4"
+
 "@vuepress/plugin-git@2.0.0-beta.66":
   "integrity" "sha512-IOCoOIPwbAmxXr6clf9BRyv0lsgR1G9CAkzM7PkrBSeW7QSxh9skfSsNFNSe1vhjNyQGETq+Ebjfje8Y8p0qjA=="
   "resolved" "https://registry.npmmirror.com/@vuepress/plugin-git/-/plugin-git-2.0.0-beta.66.tgz"
@@ -1225,6 +1344,15 @@
     "@vuepress/utils" "2.0.0-beta.66"
     "execa" "^7.1.1"
 
+"@vuepress/plugin-git@2.0.0-beta.67":
+  "integrity" "sha512-9JSGmEtDqBWEmszqEE7spBjWdbeZo0jeMi2ZQLT4KgQrYh5fU/DO8MgeJxGXXd9xvpz4aVAzQR+gqYpL6kO5Jw=="
+  "resolved" "https://registry.npmmirror.com/@vuepress/plugin-git/-/plugin-git-2.0.0-beta.67.tgz"
+  "version" "2.0.0-beta.67"
+  dependencies:
+    "@vuepress/core" "2.0.0-beta.67"
+    "@vuepress/utils" "2.0.0-beta.67"
+    "execa" "^8.0.1"
+
 "@vuepress/plugin-medium-zoom@2.0.0-beta.66":
   "integrity" "sha512-ND7Cbzu0YOHo4Tclin9yXhs6r9qI8SkfW2guOjy+qXpnN0Yl1uo3xJQwiAlkEmt7AdYNUE6wtia/qz8Bs+GqBA=="
   "resolved" "https://registry.npmmirror.com/@vuepress/plugin-medium-zoom/-/plugin-medium-zoom-2.0.0-beta.66.tgz"
@@ -1233,6 +1361,17 @@
     "@vuepress/client" "2.0.0-beta.66"
     "@vuepress/core" "2.0.0-beta.66"
     "@vuepress/utils" "2.0.0-beta.66"
+    "medium-zoom" "^1.0.8"
+    "vue" "^3.3.4"
+
+"@vuepress/plugin-medium-zoom@2.0.0-beta.67":
+  "integrity" "sha512-KLXfzKKbAhLSaRdbkHlvpbpYtaqINYBJ9gB4Q7CQ5AUaA8uStLG6rX0RjyhKAONfIJWuFiVYCp38QSI++fa/tA=="
+  "resolved" "https://registry.npmmirror.com/@vuepress/plugin-medium-zoom/-/plugin-medium-zoom-2.0.0-beta.67.tgz"
+  "version" "2.0.0-beta.67"
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.67"
+    "@vuepress/core" "2.0.0-beta.67"
+    "@vuepress/utils" "2.0.0-beta.67"
     "medium-zoom" "^1.0.8"
     "vue" "^3.3.4"
 
@@ -1247,6 +1386,17 @@
     "vue" "^3.3.4"
     "vue-router" "^4.2.4"
 
+"@vuepress/plugin-nprogress@2.0.0-beta.67":
+  "integrity" "sha512-BlqALWsNCllrqhMgRGz+50ah984XCwp1wejNYGP0ENEGSo1SY2dUI4AatIWep4Zj+0s7gbBR0swZc49hkLpENg=="
+  "resolved" "https://registry.npmmirror.com/@vuepress/plugin-nprogress/-/plugin-nprogress-2.0.0-beta.67.tgz"
+  "version" "2.0.0-beta.67"
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.67"
+    "@vuepress/core" "2.0.0-beta.67"
+    "@vuepress/utils" "2.0.0-beta.67"
+    "vue" "^3.3.4"
+    "vue-router" "^4.2.4"
+
 "@vuepress/plugin-palette@2.0.0-beta.66":
   "integrity" "sha512-Ukt9NbCBo9Uvo6ALim0l3Qic1qPQBQ3OwGTuS7BMDM9XgMeStknziI6Pb9vW7MaQV2aWjbbxwnyZEoxSSlUKOw=="
   "resolved" "https://registry.npmmirror.com/@vuepress/plugin-palette/-/plugin-palette-2.0.0-beta.66.tgz"
@@ -1256,12 +1406,29 @@
     "@vuepress/utils" "2.0.0-beta.66"
     "chokidar" "^3.5.3"
 
+"@vuepress/plugin-palette@2.0.0-beta.67":
+  "integrity" "sha512-Ea2nLx9yH4c70MUQpFXuRAD6OZNVdyVGppvNwyGswutqPkRu7km18ml4Jk767iGMAVfzmrlphd6VIUJBUJ81JQ=="
+  "resolved" "https://registry.npmmirror.com/@vuepress/plugin-palette/-/plugin-palette-2.0.0-beta.67.tgz"
+  "version" "2.0.0-beta.67"
+  dependencies:
+    "@vuepress/core" "2.0.0-beta.67"
+    "@vuepress/utils" "2.0.0-beta.67"
+    "chokidar" "^3.5.3"
+
 "@vuepress/plugin-prismjs@2.0.0-beta.66":
   "integrity" "sha512-dkxKb3XVmFWdCPiUJKjJXvIAL170ZN93wgqEpid+PDeEQl+PBQbNELFj+5UZNPpnvzZtdRUUpcfBtz9ZqRGMtw=="
   "resolved" "https://registry.npmmirror.com/@vuepress/plugin-prismjs/-/plugin-prismjs-2.0.0-beta.66.tgz"
   "version" "2.0.0-beta.66"
   dependencies:
     "@vuepress/core" "2.0.0-beta.66"
+    "prismjs" "^1.29.0"
+
+"@vuepress/plugin-prismjs@2.0.0-beta.67":
+  "integrity" "sha512-IaTc/BHwdO/ydfcoGmqUsDI5G2rPsgffxDtHx4pogaBCF2A6X9O++hrR/YExOHwwyhaE/6c6kflJAefaHb+Arg=="
+  "resolved" "https://registry.npmmirror.com/@vuepress/plugin-prismjs/-/plugin-prismjs-2.0.0-beta.67.tgz"
+  "version" "2.0.0-beta.67"
+  dependencies:
+    "@vuepress/core" "2.0.0-beta.67"
     "prismjs" "^1.29.0"
 
 "@vuepress/plugin-register-components@2.0.0-beta.66":
@@ -1298,6 +1465,18 @@
     "@vuepress/utils" "2.0.0-beta.66"
     "vue" "^3.3.4"
 
+"@vuepress/plugin-theme-data@2.0.0-beta.67":
+  "integrity" "sha512-emTj1fvYXM/+WWObmgR0STRwkcDEM9QLD9ZP/JK5hEdt9KQnl8qO9NIzVfP/acgqbxFJQVvsmMSruXXknN68FQ=="
+  "resolved" "https://registry.npmmirror.com/@vuepress/plugin-theme-data/-/plugin-theme-data-2.0.0-beta.67.tgz"
+  "version" "2.0.0-beta.67"
+  dependencies:
+    "@vue/devtools-api" "^6.5.0"
+    "@vuepress/client" "2.0.0-beta.67"
+    "@vuepress/core" "2.0.0-beta.67"
+    "@vuepress/shared" "2.0.0-beta.67"
+    "@vuepress/utils" "2.0.0-beta.67"
+    "vue" "^3.3.4"
+
 "@vuepress/shared@2.0.0-beta.66":
   "integrity" "sha512-hMnFFHee6xLYVcSdpbKddcqunrOxIp2/B1gOGorcF5bZfnhJJWWsdZ//kwemAqlB8d10Z7f3x+b69Ur1LDPThw=="
   "resolved" "https://registry.npmmirror.com/@vuepress/shared/-/shared-2.0.0-beta.66.tgz"
@@ -1306,27 +1485,35 @@
     "@mdit-vue/types" "^0.12.0"
     "@vue/shared" "^3.3.4"
 
-"@vuepress/theme-default@2.0.0-beta.66":
-  "integrity" "sha512-5h2R1L+isDoQ0+JW8xLbR9fwUP7ysKAaWdb4+1ahXCpo5aGJRfO6S1NzUihKseut0UG7Lv3omnVVzBOh3joGNw=="
-  "resolved" "https://registry.npmmirror.com/@vuepress/theme-default/-/theme-default-2.0.0-beta.66.tgz"
-  "version" "2.0.0-beta.66"
+"@vuepress/shared@2.0.0-beta.67":
+  "integrity" "sha512-gm8/6oAnd0Jh8g9xB89S+g8XJxt30QmeXK79J2Nwcbgy88CZnYbZssU1noyxFt4cHDX8wpUf8V5I388/dfHfoQ=="
+  "resolved" "https://registry.npmmirror.com/@vuepress/shared/-/shared-2.0.0-beta.67.tgz"
+  "version" "2.0.0-beta.67"
   dependencies:
-    "@vuepress/client" "2.0.0-beta.66"
-    "@vuepress/core" "2.0.0-beta.66"
-    "@vuepress/plugin-active-header-links" "2.0.0-beta.66"
-    "@vuepress/plugin-back-to-top" "2.0.0-beta.66"
-    "@vuepress/plugin-container" "2.0.0-beta.66"
-    "@vuepress/plugin-external-link-icon" "2.0.0-beta.66"
-    "@vuepress/plugin-git" "2.0.0-beta.66"
-    "@vuepress/plugin-medium-zoom" "2.0.0-beta.66"
-    "@vuepress/plugin-nprogress" "2.0.0-beta.66"
-    "@vuepress/plugin-palette" "2.0.0-beta.66"
-    "@vuepress/plugin-prismjs" "2.0.0-beta.66"
-    "@vuepress/plugin-theme-data" "2.0.0-beta.66"
-    "@vuepress/shared" "2.0.0-beta.66"
-    "@vuepress/utils" "2.0.0-beta.66"
-    "@vueuse/core" "^10.2.1"
-    "sass" "^1.63.6"
+    "@mdit-vue/types" "^0.12.0"
+    "@vue/shared" "^3.3.4"
+
+"@vuepress/theme-default@2.0.0-beta.67":
+  "integrity" "sha512-t8wfKaf/WUAifcKTYfnpsUxTVF5C4LUSiX2DH+JTt0lB/bv4SKQstuZtLvLiV9C4q2ekjGpitaW85T4KDnshug=="
+  "resolved" "https://registry.npmmirror.com/@vuepress/theme-default/-/theme-default-2.0.0-beta.67.tgz"
+  "version" "2.0.0-beta.67"
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.67"
+    "@vuepress/core" "2.0.0-beta.67"
+    "@vuepress/plugin-active-header-links" "2.0.0-beta.67"
+    "@vuepress/plugin-back-to-top" "2.0.0-beta.67"
+    "@vuepress/plugin-container" "2.0.0-beta.67"
+    "@vuepress/plugin-external-link-icon" "2.0.0-beta.67"
+    "@vuepress/plugin-git" "2.0.0-beta.67"
+    "@vuepress/plugin-medium-zoom" "2.0.0-beta.67"
+    "@vuepress/plugin-nprogress" "2.0.0-beta.67"
+    "@vuepress/plugin-palette" "2.0.0-beta.67"
+    "@vuepress/plugin-prismjs" "2.0.0-beta.67"
+    "@vuepress/plugin-theme-data" "2.0.0-beta.67"
+    "@vuepress/shared" "2.0.0-beta.67"
+    "@vuepress/utils" "2.0.0-beta.67"
+    "@vueuse/core" "^10.4.1"
+    "sass" "^1.66.1"
     "sass-loader" "^13.3.2"
     "vue" "^3.3.4"
     "vue-router" "^4.2.4"
@@ -1348,7 +1535,24 @@
     "picocolors" "^1.0.0"
     "upath" "^2.0.1"
 
-"@vueuse/core@^10.2.1":
+"@vuepress/utils@2.0.0-beta.67":
+  "integrity" "sha512-wCK0uggm4gXroy7UkS1u8wDQmD4b0L6Gjqd/1PZTDhNlMLsrjBx7lqqoIKqarMdB2wmDLroPJcC9otvCz2oQug=="
+  "resolved" "https://registry.npmmirror.com/@vuepress/utils/-/utils-2.0.0-beta.67.tgz"
+  "version" "2.0.0-beta.67"
+  dependencies:
+    "@types/debug" "^4.1.8"
+    "@types/fs-extra" "^11.0.1"
+    "@types/hash-sum" "^1.0.0"
+    "@vuepress/shared" "2.0.0-beta.67"
+    "debug" "^4.3.4"
+    "fs-extra" "^11.1.1"
+    "globby" "^13.2.2"
+    "hash-sum" "^2.0.0"
+    "ora" "^7.0.1"
+    "picocolors" "^1.0.0"
+    "upath" "^2.0.1"
+
+"@vueuse/core@^10.2.1", "@vueuse/core@^10.4.1":
   "integrity" "sha512-DkHIfMIoSIBjMgRRvdIvxsyboRZQmImofLyOHADqiVbQVilP8VVHDhBX2ZqoItOgu7dWa8oXiNnScOdPLhdEXg=="
   "resolved" "https://registry.npmmirror.com/@vueuse/core/-/core-10.4.1.tgz"
   "version" "10.4.1"
@@ -1738,6 +1942,18 @@
     "picocolors" "^1.0.0"
     "postcss-value-parser" "^4.2.0"
 
+"autoprefixer@^10.4.15":
+  "integrity" "sha512-KCuPB8ZCIqFdA4HwKXsvz7j6gvSDNhDP7WnUjBleRkKjPdvCmHFuQ77ocavI8FT6NdvlBnE2UFr2H4Mycn8Vew=="
+  "resolved" "https://registry.npmmirror.com/autoprefixer/-/autoprefixer-10.4.15.tgz"
+  "version" "10.4.15"
+  dependencies:
+    "browserslist" "^4.21.10"
+    "caniuse-lite" "^1.0.30001520"
+    "fraction.js" "^4.2.0"
+    "normalize-range" "^0.1.2"
+    "picocolors" "^1.0.0"
+    "postcss-value-parser" "^4.2.0"
+
 "autoprefixer@10.4.7":
   "integrity" "sha512-ypHju4Y2Oav95SipEcCcI5J7CGPuvz8oat7sUtYj3ClK44bldfvtvcxK6IEK++7rqB7YchDGzweZIBG+SD0ZAA=="
   "resolved" "https://registry.npmmirror.com/autoprefixer/-/autoprefixer-10.4.7.tgz"
@@ -1965,6 +2181,11 @@
   "resolved" "https://registry.npmmirror.com/chalk/-/chalk-5.2.0.tgz"
   "version" "5.2.0"
 
+"chalk@^5.3.0":
+  "integrity" "sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w=="
+  "resolved" "https://registry.npmmirror.com/chalk/-/chalk-5.3.0.tgz"
+  "version" "5.3.0"
+
 "charenc@0.0.2":
   "integrity" "sha512-yrLQ/yVUFXkzg7EDQsPieE/53+0RlaWTs+wBrvW36cyilJ2SaDWfl4Yj7MtLTXleV9uEKefbAGUPv2/iWSooRA=="
   "resolved" "https://registry.npmmirror.com/charenc/-/charenc-0.0.2.tgz"
@@ -2004,10 +2225,10 @@
   dependencies:
     "restore-cursor" "^4.0.0"
 
-"cli-spinners@^2.6.1":
-  "integrity" "sha512-qu3pN8Y3qHNgE2AFweciB1IfMnmZ/fsNTEE+NOFjmGB2F/7rLhnhzppvpCnN4FovtP26k8lHyy9ptEbNwWFLzw=="
-  "resolved" "https://registry.npmmirror.com/cli-spinners/-/cli-spinners-2.7.0.tgz"
-  "version" "2.7.0"
+"cli-spinners@^2.6.1", "cli-spinners@^2.9.0":
+  "integrity" "sha512-4/aL9X3Wh0yiMQlE+eeRhWP6vclO3QRtw1JHKIT0FFUs5FjpFmESqtMvYZ0+lbzBw900b95mS0hohy+qn2VK/g=="
+  "resolved" "https://registry.npmmirror.com/cli-spinners/-/cli-spinners-2.9.0.tgz"
+  "version" "2.9.0"
 
 "cliui@^3.0.3":
   "integrity" "sha512-0yayqDxWQbqk3ojkYqUKqaAQ6AfNKeKWRNA8kR0WXzAsdHpP4BIaOmMAG87JGuO6qcobyW4GjxHd9PmhEd+T9w=="
@@ -2434,6 +2655,11 @@
     "no-case" "^3.0.4"
     "tslib" "^2.0.3"
 
+"eastasianwidth@^0.2.0":
+  "integrity" "sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA=="
+  "resolved" "https://registry.npmmirror.com/eastasianwidth/-/eastasianwidth-0.2.0.tgz"
+  "version" "0.2.0"
+
 "ee-first@1.1.1":
   "integrity" "sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow=="
   "resolved" "https://registry.npmmirror.com/ee-first/-/ee-first-1.1.1.tgz"
@@ -2448,6 +2674,11 @@
   "integrity" "sha512-JxKQiJKX0Zr5Q2/bCaTx8P+UbfyMET1OQd61qu5xQFeWr1km3fGaxelSJtnfT27XQ5Uoztn2yIyeamAc/VX13g=="
   "resolved" "https://registry.npmmirror.com/element-closest/-/element-closest-3.0.2.tgz"
   "version" "3.0.2"
+
+"emoji-regex@^10.2.1":
+  "integrity" "sha512-97g6QgOk8zlDRdgq1WxwgTMgEWGVAQvB5Fdpgc1MkNy56la5SKP9GsMXKDOdqwn90/41a8yPwIGk1Y6WVbeMQA=="
+  "resolved" "https://registry.npmmirror.com/emoji-regex/-/emoji-regex-10.2.1.tgz"
+  "version" "10.2.1"
 
 "emojis-list@^3.0.0":
   "integrity" "sha512-/kyM18EfinwXZbno9FyUGeFh87KC8HRQBQGildHZbEuRyWFOmv1U10o9BBp8XVZDVNNuQKyIGIu5ZYAAXJ0V2Q=="
@@ -2565,7 +2796,7 @@
     "@esbuild/win32-ia32" "0.18.20"
     "@esbuild/win32-x64" "0.18.20"
 
-"esbuild@~0.18.11":
+"esbuild@~0.18.20":
   "integrity" "sha512-ceqxoedUrcayh7Y7ZX6NdbbDzGROiyVBgC4PriJThBKSVPWnnFHZAkfI1lJT8QFkOwH4qOS2SJkS4wvpGl8BpA=="
   "resolved" "https://registry.npmmirror.com/esbuild/-/esbuild-0.18.20.tgz"
   "version" "0.18.20"
@@ -2701,6 +2932,21 @@
     "npm-run-path" "^5.1.0"
     "onetime" "^6.0.0"
     "signal-exit" "^3.0.7"
+    "strip-final-newline" "^3.0.0"
+
+"execa@^8.0.1":
+  "integrity" "sha512-VyhnebXciFV2DESc+p6B+y0LjSm0krU4OgJN44qFAhBY0TJ+1V61tYD2+wHusZ6F9n5K+vl8k0sTy7PEfV4qpg=="
+  "resolved" "https://registry.npmmirror.com/execa/-/execa-8.0.1.tgz"
+  "version" "8.0.1"
+  dependencies:
+    "cross-spawn" "^7.0.3"
+    "get-stream" "^8.0.1"
+    "human-signals" "^5.0.0"
+    "is-stream" "^3.0.0"
+    "merge-stream" "^2.0.0"
+    "npm-run-path" "^5.1.0"
+    "onetime" "^6.0.0"
+    "signal-exit" "^4.1.0"
     "strip-final-newline" "^3.0.0"
 
 "express@^4.17.3", "express@^4.18.2":
@@ -2897,6 +3143,11 @@
   "integrity" "sha512-ts6Wi+2j3jQjqi70w5AlN8DFnkSwC+MqmxEzdEALB2qXZYV3X/b1CTfgPLGJNMeAWxdPfU8FO1ms3NUfaHCPYg=="
   "resolved" "https://registry.npmmirror.com/get-stream/-/get-stream-6.0.1.tgz"
   "version" "6.0.1"
+
+"get-stream@^8.0.1":
+  "integrity" "sha512-VaUJspBffn/LMCJVoMvSAdmscJyS1auj5Zulnn5UoYcY531UWmdwhRWkcGKnGU93m5HSXP9LP2usOryrBtQowA=="
+  "resolved" "https://registry.npmmirror.com/get-stream/-/get-stream-8.0.1.tgz"
+  "version" "8.0.1"
 
 "get-tsconfig@^4.4.0":
   "integrity" "sha512-pmjiZ7xtB8URYm74PlGJozDNyhvsVLUcpBa8DZBG3bWHwaHa9bPiRpiSfovw+fjhwONSCWKRyk+JQHEGZmMrzw=="
@@ -3140,6 +3391,11 @@
   "resolved" "https://registry.npmmirror.com/human-signals/-/human-signals-4.3.1.tgz"
   "version" "4.3.1"
 
+"human-signals@^5.0.0":
+  "integrity" "sha512-AXcZb6vzzrFAUE61HnN4mpLqd/cSIwNQjtNWR0euPm6y0iqx3G4gOXaIDdtdDwZmhwe82LA6+zinmW4UBWVePQ=="
+  "resolved" "https://registry.npmmirror.com/human-signals/-/human-signals-5.0.0.tgz"
+  "version" "5.0.0"
+
 "iconv-lite@0.4.24":
   "integrity" "sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA=="
   "resolved" "https://registry.npmmirror.com/iconv-lite/-/iconv-lite-0.4.24.tgz"
@@ -3301,7 +3557,7 @@
   "resolved" "https://registry.npmmirror.com/is-stream/-/is-stream-3.0.0.tgz"
   "version" "3.0.0"
 
-"is-unicode-supported@^1.1.0":
+"is-unicode-supported@^1.1.0", "is-unicode-supported@^1.3.0":
   "integrity" "sha512-43r2mRvz+8JRIKnWJ+3j8JtjRKZ6GmjzfaE/qiBJnikNnYv/6bagRJ1kUhNk8R5EX/GkobD+r+sfxCPJsiKBLQ=="
   "resolved" "https://registry.npmmirror.com/is-unicode-supported/-/is-unicode-supported-1.3.0.tgz"
   "version" "1.3.0"
@@ -3910,6 +4166,21 @@
     "strip-ansi" "^7.0.1"
     "wcwidth" "^1.0.1"
 
+"ora@^7.0.1":
+  "integrity" "sha512-0TUxTiFJWv+JnjWm4o9yvuskpEJLXTcng8MJuKd+SzAzp2o+OP3HWqNhB4OdJRt1Vsd9/mR0oyaEYlOnL7XIRw=="
+  "resolved" "https://registry.npmmirror.com/ora/-/ora-7.0.1.tgz"
+  "version" "7.0.1"
+  dependencies:
+    "chalk" "^5.3.0"
+    "cli-cursor" "^4.0.0"
+    "cli-spinners" "^2.9.0"
+    "is-interactive" "^2.0.0"
+    "is-unicode-supported" "^1.3.0"
+    "log-symbols" "^5.1.0"
+    "stdin-discarder" "^0.1.0"
+    "string-width" "^6.1.0"
+    "strip-ansi" "^7.1.0"
+
 "os-locale@^1.4.0":
   "integrity" "sha512-PRT7ZORmwu2MEFt4/fv3Q+mEfN4zetKxufQrkShY2oGvUms9r8otu5HfdyIFHkYXjO7laNsoVGmM2MANfuTA8g=="
   "resolved" "https://registry.npmmirror.com/os-locale/-/os-locale-1.4.0.tgz"
@@ -4125,7 +4396,7 @@
   "resolved" "https://registry.npmmirror.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz"
   "version" "4.2.0"
 
-"postcss@^7.0.0 || ^8.0.1", "postcss@^8.0.0", "postcss@^8.1.0", "postcss@^8.1.10", "postcss@^8.2.1", "postcss@^8.2.14", "postcss@^8.3.3", "postcss@^8.4.14", "postcss@^8.4.21", "postcss@^8.4.25", "postcss@^8.4.27", "postcss@>=8.0.9":
+"postcss@^7.0.0 || ^8.0.1", "postcss@^8.0.0", "postcss@^8.1.0", "postcss@^8.1.10", "postcss@^8.2.1", "postcss@^8.2.14", "postcss@^8.3.3", "postcss@^8.4.14", "postcss@^8.4.21", "postcss@^8.4.25", "postcss@^8.4.27", "postcss@^8.4.28", "postcss@>=8.0.9":
   "integrity" "sha512-cbI+jaqIeu/VGqXEarWkRCCffhjgXc0qjBtXpqJhTBohMUjUQnbBr0xqX3vEKudc4iviTewcJo5ajcec5+wdJw=="
   "resolved" "https://registry.npmmirror.com/postcss/-/postcss-8.4.29.tgz"
   "version" "8.4.29"
@@ -4357,7 +4628,7 @@
   dependencies:
     "glob" "^7.1.3"
 
-"rollup@^3.26.2", "rollup@^3.27.1":
+"rollup@^3.26.2", "rollup@^3.27.1", "rollup@^3.28.1":
   "integrity" "sha512-nszM8DINnx1vSS+TpbWKMkxem0CDWk3cSit/WWCBVs9/JZ1I/XLwOsiUglYuYReaeWWSsW9kge5zE5NZtf/a4w=="
   "resolved" "https://registry.npmmirror.com/rollup/-/rollup-3.29.0.tgz"
   "version" "3.29.0"
@@ -4398,7 +4669,7 @@
   dependencies:
     "neo-async" "^2.6.2"
 
-"sass@*", "sass@^1.3.0", "sass@^1.63.6":
+"sass@*", "sass@^1.3.0", "sass@^1.66.1":
   "integrity" "sha512-50c+zTsZOJVgFfTgwwEzkjA3/QACgdNsKueWPyAR0mRINIvLAStVQBbPg14iuqEQ74NPDbXzJARJ/O4SI1zftA=="
   "resolved" "https://registry.npmmirror.com/sass/-/sass-1.66.1.tgz"
   "version" "1.66.1"
@@ -4576,6 +4847,11 @@
   "resolved" "https://registry.npmmirror.com/signal-exit/-/signal-exit-3.0.7.tgz"
   "version" "3.0.7"
 
+"signal-exit@^4.1.0":
+  "integrity" "sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw=="
+  "resolved" "https://registry.npmmirror.com/signal-exit/-/signal-exit-4.1.0.tgz"
+  "version" "4.1.0"
+
 "slash@^4.0.0":
   "integrity" "sha512-3dOsAHXXUkQTpOYcoAxLIorMTp4gIQr5IW3iVb7A7lFIp0VHhnynm9izx6TssdrIcVIESAlVjtnO2K8bg+Coew=="
   "resolved" "https://registry.npmmirror.com/slash/-/slash-4.0.0.tgz"
@@ -4691,6 +4967,15 @@
     "is-fullwidth-code-point" "^1.0.0"
     "strip-ansi" "^3.0.0"
 
+"string-width@^6.1.0":
+  "integrity" "sha512-k01swCJAgQmuADB0YIc+7TuatfNvTBVOoaUWJjTB9R4VJzR5vNWzf5t42ESVZFPS8xTySF7CAdV4t/aaIm3UnQ=="
+  "resolved" "https://registry.npmmirror.com/string-width/-/string-width-6.1.0.tgz"
+  "version" "6.1.0"
+  dependencies:
+    "eastasianwidth" "^0.2.0"
+    "emoji-regex" "^10.2.1"
+    "strip-ansi" "^7.0.1"
+
 "strip-ansi@^3.0.0":
   "integrity" "sha512-VhumSSbBqDTP8p2ZLKj40UjBCV4+v8bUSEpUb4KjRgWk9pbqGF4REFj6KEagidb2f/M6AzC0EmFyDNGaw9OCzg=="
   "resolved" "https://registry.npmmirror.com/strip-ansi/-/strip-ansi-3.0.1.tgz"
@@ -4712,10 +4997,10 @@
   dependencies:
     "ansi-regex" "^5.0.1"
 
-"strip-ansi@^7.0.1":
-  "integrity" "sha512-cXNxvT8dFNRVfhVME3JAe98mkXDYN2O1l7jmcwMnOslDeESg1rF/OZMtK0nRAhiari1unG5cD4jG3rapUAkLbw=="
-  "resolved" "https://registry.npmmirror.com/strip-ansi/-/strip-ansi-7.0.1.tgz"
-  "version" "7.0.1"
+"strip-ansi@^7.0.1", "strip-ansi@^7.1.0":
+  "integrity" "sha512-iq6eVVI64nQQTRYq2KtEg2d2uU7LElhTJwsH4YzIHZshxlgZms/wIc4VoDQTlG/IvVIrBKG06CrZnp0qv7hkcQ=="
+  "resolved" "https://registry.npmmirror.com/strip-ansi/-/strip-ansi-7.1.0.tgz"
+  "version" "7.1.0"
   dependencies:
     "ansi-regex" "^6.0.1"
 
@@ -4979,7 +5264,7 @@
   "resolved" "https://registry.npmmirror.com/vary/-/vary-1.1.2.tgz"
   "version" "1.1.2"
 
-"vite@^4.0.0", "vite@~4.4.2":
+"vite@^4.0.0", "vite@~4.4.2", "vite@~4.4.9":
   "integrity" "sha512-2mbUn2LlUmNASWwSCNSJ/EG2HuSRTnVNaydp6vMCm5VIqJsjMfbIWtbH2kDuwUVW5mMUKKZvGPX/rqeqVvv1XA=="
   "resolved" "https://registry.npmmirror.com/vite/-/vite-4.4.9.tgz"
   "version" "4.4.9"
@@ -5068,23 +5353,23 @@
     "vue" "^3.3.4"
     "vue-router" "^4.2.2"
 
-"vuepress-vite@2.0.0-beta.66":
-  "integrity" "sha512-ezJC+IXDb5j5IrNP91gcvx2/jiSACSOjzK1kNoYSYw/D17j9E6sZ6ddVTFLj6C/vGfhiNT9roP/nvK4TFgsehg=="
-  "resolved" "https://registry.npmmirror.com/vuepress-vite/-/vuepress-vite-2.0.0-beta.66.tgz"
-  "version" "2.0.0-beta.66"
+"vuepress-vite@2.0.0-beta.67":
+  "integrity" "sha512-oaak2RPKBP0LeaDpDntlsQWLklCBf2vdeceXtPSLV2IzL/wtMHs5DQ/f7zXxCzvku3h/FIstmgoKq/vC0TvHkA=="
+  "resolved" "https://registry.npmmirror.com/vuepress-vite/-/vuepress-vite-2.0.0-beta.67.tgz"
+  "version" "2.0.0-beta.67"
   dependencies:
-    "@vuepress/bundler-vite" "2.0.0-beta.66"
-    "@vuepress/cli" "2.0.0-beta.66"
-    "@vuepress/core" "2.0.0-beta.66"
-    "@vuepress/theme-default" "2.0.0-beta.66"
+    "@vuepress/bundler-vite" "2.0.0-beta.67"
+    "@vuepress/cli" "2.0.0-beta.67"
+    "@vuepress/core" "2.0.0-beta.67"
+    "@vuepress/theme-default" "2.0.0-beta.67"
     "vue" "^3.3.4"
 
-"vuepress@2.0.0-beta.66":
-  "integrity" "sha512-BrpORW3QR0/DgtOk6S5EHKG2jn4IURWHI5oLROmc6gpqlZ30T0Ya6pGq9PzG023p9Le5LZVzeuIefEW0srXUYA=="
-  "resolved" "https://registry.npmmirror.com/vuepress/-/vuepress-2.0.0-beta.66.tgz"
-  "version" "2.0.0-beta.66"
+"vuepress@^2.0.0-beta.67":
+  "integrity" "sha512-931pKDOph20RKMLZAH5YYlMz+nfx9jcOQio1Gxk0pB7DwuSxAVFxPv2dbIUP4E/4uWOkLppRhLYcrOoxEbVYzA=="
+  "resolved" "https://registry.npmmirror.com/vuepress/-/vuepress-2.0.0-beta.67.tgz"
+  "version" "2.0.0-beta.67"
   dependencies:
-    "vuepress-vite" "2.0.0-beta.66"
+    "vuepress-vite" "2.0.0-beta.67"
 
 "watchpack@^2.4.0":
   "integrity" "sha512-Lcvm7MGST/4fup+ifyKi2hjyIAwcdI4HRgtvTpIUxBRhB+RFtUh8XtDOxUfctVCnhVi+QQj49i91OyvzkJl6cg=="
